@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title> Interactive rating component</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="feedback-form">
+      <img class="star" src="images/icon-star.svg" alt="shine">
+
+      <h1 class="heading"> How did we do? </h1>
+      <p class="request"> Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering! </p>
+
+      <ul class="btn">
+        <li data-value="1" class="rating-btn"> 1 </li>
+        <li data-value="2" class="rating-btn"> 2 </li>
+        <li data-value="3" class="rating-btn"> 3 </li>
+        <li data-value="4" class="rating-btn star-rating-4"> 4 </li>
+        <li data-value="5" class="rating-btn star-rating-5"> 5 </li>
+      </ul>
+
+      <button class="submit"> SUBMIT </button>
+    </div>
+    
+  <div class="thank-you-form ">
+    <img class="img" src="images/illustration-thank-you.svg" alt="thank you">
+
+    <div class="feedback"> You selected <span class="rating"></span> out of 5
+    </div>
+    <div class="thank-you-req"> Thank you! </div>
+    <div class="thank-you-para"> We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch! </div>
+  </div>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- Thank you state end -->
+
+
+  <script src="index.js" charset="utf=8"></script>
+
+</body>
+
+</html>
